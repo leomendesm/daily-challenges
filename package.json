@@ -5,8 +5,16 @@
   "repository": "https://github.com/leomendesm/daily-challenges.git",
   "author": "Leonardo M <leo.mi.me@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "watch:sass": "node-sass style/index.sass style/index.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "jsonfile": "^4.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
   }
 }
