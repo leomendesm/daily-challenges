@@ -1,0 +1,12 @@
+{
+  "name": "daily",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leomendesm/daily-challenges.git",
+  "author": "Leonardo M <leo.mi.me@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jsonfile": "^4.0.0"
+  }
+}
